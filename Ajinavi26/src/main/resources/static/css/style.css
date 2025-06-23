@@ -2,18 +2,18 @@
 
 body {
 	font-family: BIZ UDPゴシック;
-	background-color: #98fb98;
+	background-color: rgb(255, 255, 0);
 	text-align: center;
 }
 
 h1 {
 	font-size: 32px;
-    color: green;
+    color: rgb(0, 0, 160);
 }
 
 h2 {
 	font-size: 28px;
-	background-color: green;
+	background-color: rgb(255, 0, 0);
 	color: white;
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -21,16 +21,16 @@ h2 {
 
 /* 通常のボタン */
 .btn {
-	border: 2px solid green;
+	border: 2px solid rgb(128, 0, 128);
 	padding: 4px 20px;
 	font-size: 20px;
-	color: green;
+	color: rgb(255, 0, 0);
 	cursor:pointer;
 }
 
 .btn:hover {
   color: #fff;
-  background: green;
+  background: rgb(255, 255, 0);
 }
 
 /* コメント入力の幅 */
