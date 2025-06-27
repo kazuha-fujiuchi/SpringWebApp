@@ -19,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 public class RestaurantListController {
 	private final RestaurantListService service;
 	
-	@GetMapping("/op")
+	@GetMapping("/top")
 	private String restaurantList(@ModelAttribute RestaurantSearchForm form) {
 		
 			return "restaurant-list";
