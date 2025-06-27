@@ -36,4 +36,8 @@
 /.settings/
 /target/
 /tmp/
+<<<<<<< HEAD
 .logs/
+=======
+.logs
+>>>>>>> refs/remotes/origin/main
